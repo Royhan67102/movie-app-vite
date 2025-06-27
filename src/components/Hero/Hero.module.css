@@ -1,0 +1,93 @@
+/* Small Screen */
+.container {
+    margin: 1rem;
+  }
+  
+  .hero {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem 1rem; /* Tambahan padding */
+  }
+  
+  .hero__left {
+    margin-bottom: 2rem; /* Lebih longgar */
+  }
+  
+  .hero__title {
+    color: #4361ee;
+    margin-bottom: 1rem;
+    font-size: 2.44rem;
+  }
+  
+  .hero__genre {
+    color: #b5179e;
+    margin-bottom: 1rem;
+    font-size: 1.59rem;
+  }
+  
+  .hero__description {
+    color: #64748b;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+  }
+  
+  .hero__button {
+    padding: 0.8rem 2rem;
+    border: none;
+    border-radius: 10px;
+    background-color: #4361ee;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hero__button:hover {
+    background-color: #274cdb;
+  }
+  
+  .hero__image {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 25px; 
+    margin: 0 auto;
+  }
+  
+  /* Medium Screen */
+  @media (min-width: 768px) {
+  }
+  
+  /* Large Screen */
+  @media (min-width: 992px) {
+    .container {
+      max-width: 1200px;
+      margin: 3rem auto;
+    }
+  
+    .hero {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      text-align: left;
+      gap: 2rem; /* Tambahan jarak antar kolom */
+      padding: 3rem 2rem;
+    }
+  
+    .hero__left {
+      flex-basis: 50%;
+      margin-bottom: 0; /* Hilangkan margin bawah di desktop */
+    }
+  
+    .hero__right {
+      flex-basis: 50%;
+      display: flex;
+      justify-content: center; /* Supaya gambar tetap di tengah */
+    }
+  
+    .hero__image {
+      margin: 0; /* Hilangkan margin center di desktop */
+    }
+  }
+  
