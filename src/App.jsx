@@ -7,7 +7,7 @@ import Create from './pages/Create'
 import NowPlaying from './pages/NowPlaying'
 import Popular from './pages/Popular'
 import TopRated from './pages/TopRated'
-import Layout from './Layout'
+import Layout from './Layout/Index'
 import DetailMovie from './pages/Detail'
 import data from './utils/constans/data'
 import MoviesContext from './components/context/MoviesContext';
